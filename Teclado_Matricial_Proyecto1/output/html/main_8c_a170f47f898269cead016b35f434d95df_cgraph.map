@@ -1,0 +1,13 @@
+<map id="wait_Option" name="wait_Option">
+<area shape="rect" id="node2" href="$main_8c.html#a0a1f510d6ae22534f1d2f7c4c6478120" title="clean_flags_IQR" alt="" coords="145,56,261,83"/>
+<area shape="rect" id="node5" href="$main_8c.html#ac8df33775f2a11efb4634dcf69769916" title="BLUE_ON" alt="" coords="161,107,244,133"/>
+<area shape="rect" id="node8" href="$_g_p_i_o_8c.html#a1f8f9fa4442602be28656788971ef9bd" title="Retorna el valor de la bandera de la interrupción del puerto B. " alt="" coords="144,157,261,184"/>
+<area shape="rect" id="node9" href="$_matrix_8c.html#a5f69c068b7dd9730b386688870759fc5" title="Esta función retorna el digito proveniente del teclado matricial. " alt="" coords="153,208,252,235"/>
+<area shape="rect" id="node12" href="$_g_p_i_o_8c.html#a9561e88120211b67ba36225989597117" title="Limpia el valor de la bandera de la interrupción del puerto B. " alt="" coords="144,259,261,285"/>
+<area shape="rect" id="node3" href="$_g_p_i_o_8c.html#afdabe54c4cfaa7fc4215815f82620db5" title="Limpia el valor de la bandera de la interrupción del puerto A. " alt="" coords="309,5,436,32"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#a37895d429d85a521b88609c172a68591" title="Limpia el valor de la bandera de la interrupción del puerto C. " alt="" coords="309,56,436,83"/>
+<area shape="rect" id="node6" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="323,107,423,133"/>
+<area shape="rect" id="node7" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="317,157,428,184"/>
+<area shape="rect" id="node10" href="$_matrix_8c.html#a0a09acee7456dbae8f50fcb31b8e13ba" title="Digit_Edit" alt="" coords="333,208,412,235"/>
+<area shape="rect" id="node11" href="$_matrix_8c.html#ab9563c0ed90ddb66ea930333ef27ed76" title="decoder" alt="" coords="339,259,407,285"/>
+</map>

@@ -1,0 +1,6 @@
+15:30:42 **** Incremental Build of configuration Debug for project seno ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:30:42 Build Finished (took 156ms)
+

@@ -1,0 +1,15 @@
+17:25:22 **** Incremental Build of configuration Debug for project 161011_uart ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+In file included from ../Sources/main.c:12:0:
+../Sources/UART.h:14:33: fatal error: DataTypeDefinitions.h: No such file or directory
+ #include "DataTypeDefinitions.h"
+                                 ^
+compilation terminated.
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+
+17:25:22 Build Finished (took 343ms)
+

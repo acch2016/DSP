@@ -1,0 +1,10 @@
+<map id="motor_Control" name="motor_Control">
+<area shape="rect" id="node2" href="$main_8c.html#ac5cd2b997088a9b93392d7cb9e4ae25e" title="RED_ON" alt="" coords="177,31,252,57"/>
+<area shape="rect" id="node5" href="$_g_p_i_o_8c.html#a1f8f9fa4442602be28656788971ef9bd" title="Retorna el valor de la bandera de la interrupción del puerto B. " alt="" coords="156,81,273,108"/>
+<area shape="rect" id="node6" href="$_matrix_8c.html#a5f69c068b7dd9730b386688870759fc5" title="Esta función retorna el digito proveniente del teclado matricial. " alt="" coords="165,132,264,159"/>
+<area shape="rect" id="node9" href="$_g_p_i_o_8c.html#a9561e88120211b67ba36225989597117" title="Limpia el valor de la bandera de la interrupción del puerto B. " alt="" coords="156,183,273,209"/>
+<area shape="rect" id="node3" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="327,5,427,32"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="321,56,432,83"/>
+<area shape="rect" id="node7" href="$_matrix_8c.html#a0a09acee7456dbae8f50fcb31b8e13ba" title="Digit_Edit" alt="" coords="337,107,416,133"/>
+<area shape="rect" id="node8" href="$_matrix_8c.html#ab9563c0ed90ddb66ea930333ef27ed76" title="decoder" alt="" coords="343,157,411,184"/>
+</map>

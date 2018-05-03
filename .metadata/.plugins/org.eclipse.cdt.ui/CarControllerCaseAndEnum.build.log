@@ -1,0 +1,62 @@
+21:07:51 **** Incremental Build of configuration Debug for project CarControllerCaseAndEnum ****
+make all 
+Building file: ../Sources/GPIO.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/GPIO.d" -MT"Sources/GPIO.o" -c -o "Sources/GPIO.o" "../Sources/GPIO.c"
+../Sources/GPIO.c: In function 'PORTC_IRQHandler':
+../Sources/GPIO.c:19:14: error: 'TRUE' undeclared (first use in this function)
+  FlagPortC = TRUE;
+              ^
+../Sources/GPIO.c:19:14: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/GPIO.c:20:2: warning: implicit declaration of function 'GPIO_clearInterrupt' [-Wimplicit-function-declaration]
+  GPIO_clearInterrupt(GPIOC);
+  ^
+../Sources/GPIO.c: At top level:
+../Sources/GPIO.c:30:6: warning: conflicting types for 'GPIO_clearInterrupt' [enabled by default]
+ void GPIO_clearInterrupt(GPIO_portNameType portName) {
+      ^
+../Sources/GPIO.c:20:2: note: previous implicit declaration of 'GPIO_clearInterrupt' was here
+  GPIO_clearInterrupt(GPIOC);
+  ^
+../Sources/GPIO.c:50:7: error: conflicting types for 'GPIO_clockGating'
+ uint8 GPIO_clockGating(GPIO_portNameType portName) {
+       ^
+In file included from ../Sources/GPIO.c:13:0:
+../Sources/GPIO.h:83:6: note: previous declaration of 'GPIO_clockGating' was here
+ void GPIO_clockGating(GPIO_portNameType portName);
+      ^
+../Sources/GPIO.c: In function 'GPIO_clockGating':
+../Sources/GPIO.c:69:11: error: 'FALSE' undeclared (first use in this function)
+   return (FALSE);
+           ^
+../Sources/GPIO.c:72:10: error: 'TRUE' undeclared (first use in this function)
+  return (TRUE);
+          ^
+../Sources/GPIO.c: At top level:
+../Sources/GPIO.c:75:7: error: conflicting types for 'GPIO_pinControlRegister'
+ uint8 GPIO_pinControlRegister(GPIO_portNameType portName, uint8 pin,
+       ^
+In file included from ../Sources/GPIO.c:13:0:
+../Sources/GPIO.h:95:6: note: previous declaration of 'GPIO_pinControlRegister' was here
+ void GPIO_pinControlRegister(GPIO_portNameType portName,uint8 pin,GPIO_pinControlRegisterType* pinControlRegister);
+      ^
+../Sources/GPIO.c: In function 'GPIO_pinControlRegister':
+../Sources/GPIO.c:94:11: error: 'FALSE' undeclared (first use in this function)
+   return (FALSE);
+           ^
+../Sources/GPIO.c:98:10: error: 'TRUE' undeclared (first use in this function)
+  return (TRUE);
+          ^
+../Sources/GPIO.c: At top level:
+../Sources/GPIO.c:101:6: error: conflicting types for 'GPIO_writePORT'
+ void GPIO_writePORT(GPIO_portNameType portName, uint32 Data) {
+      ^
+In file included from ../Sources/GPIO.c:13:0:
+../Sources/GPIO.h:145:6: note: previous declaration of 'GPIO_writePORT' was here
+ void GPIO_writePORT(uint32 data);
+      ^
+Sources/subdir.mk:24: recipe for target 'Sources/GPIO.o' failed
+make: *** [Sources/GPIO.o] Error 1
+
+21:07:51 Build Finished (took 484ms)
+

@@ -1,0 +1,5 @@
+<map id="SPI.h" name="SPI.h">
+<area shape="rect" id="node2" href="$_l_c_d_nokia5110_8c.html" title="LCDNokia5110.c" alt="" coords="5,80,124,107"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="This is a starter file to use the Nokia 5510 LCD. The LCD is connected as follows: reset&#45;PDT0 CE&#45;GND ..." alt="" coords="149,80,210,107"/>
+<area shape="rect" id="node4" href="$_s_p_i_8c.html" title="SPI.c" alt="" coords="235,80,289,107"/>
+</map>

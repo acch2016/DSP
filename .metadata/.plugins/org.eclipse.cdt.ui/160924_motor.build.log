@@ -1,0 +1,27 @@
+21:07:49 **** Incremental Build of configuration Debug for project 160924_motor ****
+make all 
+Building file: ../Sources/MOTOR.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/MOTOR.d" -MT"Sources/MOTOR.o" -c -o "Sources/MOTOR.o" "../Sources/MOTOR.c"
+../Sources/MOTOR.c: In function 'FSM_Motor':
+../Sources/MOTOR.c:82:2: warning: implicit declaration of function 'readFlag_PORTC' [-Wimplicit-function-declaration]
+  input=readFlag_PORTC();
+  ^
+../Sources/MOTOR.c:86:3: warning: implicit declaration of function 'clearFlag_PORTC' [-Wimplicit-function-declaration]
+   clearFlag_PORTC();
+   ^
+Finished building: ../Sources/MOTOR.c
+ 
+Building file: ../Sources/PIT.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/PIT.d" -MT"Sources/PIT.o" -c -o "Sources/PIT.o" "../Sources/PIT.c"
+Finished building: ../Sources/PIT.c
+ 
+Building target: 160924_motor.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK64FN1M0xxx12_flash.ld" -Xlinker --gc-sections -L"C:/work_kin/160924_motor/Project_Settings/Linker_Files" -Wl,-Map,"160924_motor.map" -specs=nano.specs -specs=nosys.specs -o "160924_motor.elf"  ./Sources/GPIO.o ./Sources/GlobalFunctions.o ./Sources/MOTOR.o ./Sources/NVIC.o ./Sources/PIT.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK64F12.o ./Project_Settings/Startup_Code/system_MK64F12.o   
+Finished building target: 160924_motor.elf
+ 
+
+21:07:51 Build Finished (took 1s.279ms)
+

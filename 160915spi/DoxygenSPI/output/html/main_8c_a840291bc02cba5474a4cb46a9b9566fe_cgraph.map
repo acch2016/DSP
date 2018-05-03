@@ -1,0 +1,29 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$_s_p_i_8c.html#aa72983bdb1bcfc055cea98c7501cc930" title="SPI_init" alt="" coords="339,284,406,311"/>
+<area shape="rect" id="node14" href="$_l_c_d_nokia5110_8c.html#a428271978e3456946f4abdd957760dcd" title="LCDNokia_init" alt="" coords="321,575,425,601"/>
+<area shape="rect" id="node23" href="$_l_c_d_nokia5110_8c.html#adc1fba60e5f678b64c83928f2acfdd92" title="LCDNokia_clear" alt="" coords="121,816,236,843"/>
+<area shape="rect" id="node24" href="$_l_c_d_nokia5110_8c.html#a4ca11709ea8f3d65c2b0b84486571564" title="LCDNokia_gotoXY" alt="" coords="309,816,437,843"/>
+<area shape="rect" id="node25" href="$_l_c_d_nokia5110_8c.html#a7cef0b803b612b561eba1a0d18be99d9" title="LCDNokia_bitmap" alt="" coords="115,613,242,640"/>
+<area shape="rect" id="node26" href="$_global_functions_8c.html#aa7fa622ced5687f8351d589e9402b251" title="delay" alt="" coords="152,765,205,792"/>
+<area shape="rect" id="node27" href="$_l_c_d_nokia5110_8c.html#a525ae25a85275a66f6b7b0c09ea202e2" title="LCDNokia_sendString" alt="" coords="104,664,253,691"/>
+<area shape="rect" id="node28" href="$_l_c_d_nokia5110_8c.html#ab566963d1b8e9928cbf0148cdd736b39" title="LCDNokia_sendChar" alt="" coords="301,715,444,741"/>
+<area shape="rect" id="node3" href="$_s_p_i_8c.html#ada2ca01a595e4215afcf5f2823e874a8" title="SPI_clk" alt="" coords="542,157,609,184"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#a621b0dc3536c64501a7a6c560b667355" title="This function enables the GPIO clock by configuring the corresponding bit and register in the System ..." alt="" coords="510,461,641,488"/>
+<area shape="rect" id="node5" href="$_g_p_i_o_8c.html#a61ab453960483e05a0e7a10ab63e6f22" title="This function configure different characteristics in an specific GPIO: pullup or pulldown resistor..." alt="" coords="492,512,659,539"/>
+<area shape="rect" id="node6" href="$_s_p_i_8c.html#aaeaeb3714368ed02aabbc138c06098ea" title="SPI_setMaster" alt="" coords="521,208,629,235"/>
+<area shape="rect" id="node7" href="$_s_p_i_8c.html#a5a33742872a412e5b56e543f88b27075" title="SPI_fIFO" alt="" coords="538,259,613,285"/>
+<area shape="rect" id="node8" href="$_s_p_i_8c.html#aa8569eff93c8e6e683029aead54bc3ba" title="SPI_enable" alt="" coords="531,309,619,336"/>
+<area shape="rect" id="node9" href="$_s_p_i_8c.html#af5744b76088520e4d616d70a67fa9374" title="SPI_clockPolarity" alt="" coords="513,360,638,387"/>
+<area shape="rect" id="node10" href="$_s_p_i_8c.html#ac1f6ffdf2b73f1ebcb7befb2351b1083" title="SPI_frameSize" alt="" coords="521,411,629,437"/>
+<area shape="rect" id="node11" href="$_s_p_i_8c.html#a0f680bc2b82b92316cfb15aa1886438c" title="SPI_clockPhase" alt="" coords="516,5,635,32"/>
+<area shape="rect" id="node12" href="$_s_p_i_8c.html#ab91ad9f1a48ee05391f1bd0f467d8252" title="SPI_baudRate" alt="" coords="523,56,628,83"/>
+<area shape="rect" id="node13" href="$_s_p_i_8c.html#ab7815224f24cd18500573d78f14fa4f7" title="SPI_mSBFirst" alt="" coords="523,107,628,133"/>
+<area shape="rect" id="node15" href="$_g_p_i_o_8c.html#ab6dd1d7bf26b2a8127f5806288779dba" title="This function configure specific pins of a GPIO port as input when 1 logic is written or output when ..." alt="" coords="496,563,655,589"/>
+<area shape="rect" id="node16" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="723,639,833,665"/>
+<area shape="rect" id="node17" href="$_l_c_d_nokia5110_8c.html#a05719380af2f7460f0e8e39855af5194" title="LCD_delay" alt="" coords="533,664,618,691"/>
+<area shape="rect" id="node18" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="728,715,828,741"/>
+<area shape="rect" id="node19" href="$_l_c_d_nokia5110_8c.html#a50599408f6fa872625e51271742cb013" title="LCDNokia_writeByte" alt="" coords="505,765,646,792"/>
+<area shape="rect" id="node20" href="$_s_p_i_8c.html#a747d339e8353778bf7f8635a91d0a5f9" title="SPI_startTranference" alt="" coords="707,765,849,792"/>
+<area shape="rect" id="node21" href="$_s_p_i_8c.html#a8ca8cd04c9bc2ef898aee5d38b829642" title="SPI_sendOneByte" alt="" coords="713,816,843,843"/>
+<area shape="rect" id="node22" href="$_s_p_i_8c.html#a12e009cdc7cb64988ecf0814c3524f88" title="SPI_stopTranference" alt="" coords="707,867,849,893"/>
+</map>

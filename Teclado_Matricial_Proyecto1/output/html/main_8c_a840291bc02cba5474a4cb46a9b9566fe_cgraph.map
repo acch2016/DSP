@@ -1,0 +1,42 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$main_8c.html#afd8264777700cdcfd37453a16d7ac545" title="compara la contraseña 1234 y sino prende el LED rojo " alt="" coords="113,246,221,272"/>
+<area shape="rect" id="node17" href="$main_8c.html#a170f47f898269cead016b35f434d95df" title="espera a que se ingrese A o B para avanzar al siguiente estado " alt="" coords="121,575,212,602"/>
+<area shape="rect" id="node20" href="$main_8c.html#a274933560a02f4af019b87e4fefb758a" title="si se presionó A, ingresa a comparar arrays de la contraseña para el motor 4567 " alt="" coords="104,372,229,399"/>
+<area shape="rect" id="node21" href="$main_8c.html#a36414ccd2212781df129f24620ddf6d1" title="si la contraseña B fue correcta, hace blink del led Blink_A " alt="" coords="134,904,199,931"/>
+<area shape="rect" id="node26" href="$main_8c.html#a6c4e638108d1dba0136f263742014989" title="si la contraseña A fue erronea , hace blink del led error " alt="" coords="121,955,212,982"/>
+<area shape="rect" id="node27" href="$main_8c.html#afa701861b2c3fd01018c737e1e7071da" title="si se presionó B, ingresa a comparar arrays de la contraseña para el motor 7890 " alt="" coords="104,322,229,348"/>
+<area shape="rect" id="node28" href="$main_8c.html#adfd239af6ccfb332ddc23fd42fcf2768" title="si la contraseña B fue verdadera, hace blink del led Blink_B " alt="" coords="134,1006,199,1032"/>
+<area shape="rect" id="node29" href="$main_8c.html#aa4f8300c4b8e1612abf475b01477fcb7" title="si la contraseña B fue erronea, hace blink del led error " alt="" coords="121,854,212,880"/>
+<area shape="rect" id="node30" href="$main_8c.html#a9ed4a655fa775fb1347be1d3cc60927b" title="maneja bandera que habilita boton del control de señales " alt="" coords="109,702,224,728"/>
+<area shape="rect" id="node32" href="$main_8c.html#a5e7bed29c57dc2e639648c31e272377a" title="maneja bandera que habilita boton del control de motor " alt="" coords="115,651,218,678"/>
+<area shape="rect" id="node34" href="$main_8c.html#a6f79e7bd342e78936ea5e197a2883637" title="register_Config" alt="" coords="303,1208,411,1235"/>
+<area shape="rect" id="node40" href="$_m_o_t_o_r_8c.html#ab7b89d80bbbd4d09c6cfa9facfbe8983" title="Función que contiene la máquina de estados para hacer. " alt="" coords="121,1107,212,1134"/>
+<area shape="rect" id="node41" href="$_f_u_n_c_8c.html#a0fe2adf4ba5e06f692b97ef5b54411e1" title="Función para la maquina de estados del generador de señales. " alt="" coords="117,1158,216,1184"/>
+<area shape="rect" id="node3" href="$main_8c.html#a0a1f510d6ae22534f1d2f7c4c6478120" title="clean_flags_IQR" alt="" coords="299,296,415,323"/>
+<area shape="rect" id="node6" href="$_g_p_i_o_8c.html#a1f8f9fa4442602be28656788971ef9bd" title="Retorna el valor de la bandera de la interrupción del puerto B. " alt="" coords="299,600,416,627"/>
+<area shape="rect" id="node7" href="$_matrix_8c.html#ae52b547d7ed84232ff9435faa52ae68b" title="Esta función retorna la contraseña cuando esta ya se introdujo por completo. " alt="" coords="292,347,423,374"/>
+<area shape="rect" id="node10" href="$_matrix_8c.html#af2abd503f1a387901adf9afbce958a43" title="Esta funcion limpia la posicion del digito en la contraseña " alt="" coords="277,94,437,120"/>
+<area shape="rect" id="node11" href="$_g_p_i_o_8c.html#a9561e88120211b67ba36225989597117" title="Limpia el valor de la bandera de la interrupción del puerto B. " alt="" coords="299,550,416,576"/>
+<area shape="rect" id="node12" href="$main_8c.html#a133f3d0b27cb39125bdaefe48cb67c52" title="array_Compare" alt="" coords="302,144,413,171"/>
+<area shape="rect" id="node13" href="$_matrix_8c.html#a1a1b6e33823fcf66c5540aba9909c0ea" title="Esta retorna la posición actual en la que se esta en el arreglo. " alt="" coords="303,195,412,222"/>
+<area shape="rect" id="node14" href="$_matrix_8c.html#a30210268bfdd7a0ed49619348e9d94c2" title="Esta limpia la posición actual en la que se esta en el arreglo. " alt="" coords="284,246,431,272"/>
+<area shape="rect" id="node15" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="534,702,645,728"/>
+<area shape="rect" id="node16" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="539,752,639,779"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#afdabe54c4cfaa7fc4215815f82620db5" title="Limpia el valor de la bandera de la interrupción del puerto A. " alt="" coords="526,271,653,298"/>
+<area shape="rect" id="node5" href="$_g_p_i_o_8c.html#a37895d429d85a521b88609c172a68591" title="Limpia el valor de la bandera de la interrupción del puerto C. " alt="" coords="526,322,653,348"/>
+<area shape="rect" id="node8" href="$_matrix_8c.html#a0a09acee7456dbae8f50fcb31b8e13ba" title="Digit_Edit" alt="" coords="550,423,629,450"/>
+<area shape="rect" id="node9" href="$_matrix_8c.html#ab9563c0ed90ddb66ea930333ef27ed76" title="decoder" alt="" coords="555,575,623,602"/>
+<area shape="rect" id="node18" href="$main_8c.html#ac8df33775f2a11efb4634dcf69769916" title="BLUE_ON" alt="" coords="316,448,399,475"/>
+<area shape="rect" id="node19" href="$_matrix_8c.html#a5f69c068b7dd9730b386688870759fc5" title="Esta función retorna el digito proveniente del teclado matricial. " alt="" coords="308,651,407,678"/>
+<area shape="rect" id="node22" href="$_p_i_t_8c.html#add369270b01cb4d50d7de506a6eb2c3b" title="Esta funcion regresa el estado de la bandera de la interrupcion del PIT2. " alt="" coords="301,904,413,931"/>
+<area shape="rect" id="node23" href="$_p_i_t_8c.html#a59fa3b80855d159c9f8c9313ed7d88ca" title="This function configure the PIT to generate a delay base on the system clock. Internally it configure..." alt="" coords="318,955,397,982"/>
+<area shape="rect" id="node24" href="$_p_i_t_8c.html#aee8cbab2706b4755141e7f9594df3638" title="Esta funcion limpia la bandera de la interrupcion del PIT0. " alt="" coords="300,1006,415,1032"/>
+<area shape="rect" id="node25" href="$_g_p_i_o_8c.html#a4f9afcec31fb9e69342e60c3898145fa" title="This toggle the value of a specific pin in a GPIO port. " alt="" coords="299,1056,416,1083"/>
+<area shape="rect" id="node31" href="$main_8c.html#ad26afe00e7fae159fe28a961a8e7bc03" title="GREEN_ON" alt="" coords="310,752,405,779"/>
+<area shape="rect" id="node33" href="$main_8c.html#ac5cd2b997088a9b93392d7cb9e4ae25e" title="RED_ON" alt="" coords="320,702,395,728"/>
+<area shape="rect" id="node35" href="$_g_p_i_o_8c.html#a621b0dc3536c64501a7a6c560b667355" title="This function enables the GPIO clock by configuring the corresponding bit and register in the System ..." alt="" coords="524,1208,655,1235"/>
+<area shape="rect" id="node36" href="$_g_p_i_o_8c.html#a61ab453960483e05a0e7a10ab63e6f22" title="This function configure different characteristics in an specific GPIO: pullup or pulldown resistor..." alt="" coords="506,1259,673,1286"/>
+<area shape="rect" id="node37" href="$_g_p_i_o_8c.html#ab6dd1d7bf26b2a8127f5806288779dba" title="This function configure specific pins of a GPIO port as input when 1 logic is written or output when ..." alt="" coords="510,1310,669,1336"/>
+<area shape="rect" id="node38" href="$_n_v_i_c_8c.html#adabcb6ba7492c49a19f0da49558394a5" title="This function establishes the threshold level to interrupt the MCU. " alt="" coords="492,1107,687,1134"/>
+<area shape="rect" id="node39" href="$_n_v_i_c_8c.html#a1a4e74e5f147d23a9070d864c4f20606" title="This function enables a IRQ in the NVIC and establishes its priority. " alt="" coords="485,1158,693,1184"/>
+</map>

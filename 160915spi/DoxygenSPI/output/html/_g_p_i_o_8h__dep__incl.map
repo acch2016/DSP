@@ -1,0 +1,9 @@
+<map id="GPIO.h" name="GPIO.h">
+<area shape="rect" id="node2" href="$_global_functions_8h.html" title="GlobalFunctions.h" alt="" coords="13,80,140,107"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="This is a starter file to use the Nokia 5510 LCD. The LCD is connected as follows: reset&#45;PDT0 CE&#45;GND ..." alt="" coords="157,155,218,181"/>
+<area shape="rect" id="node5" href="$_g_p_i_o_8c.html" title="Este es el archivo fuente para el driver del GPIO para la Kinetis K64 Este contiene todas las impleme..." alt="" coords="216,80,281,107"/>
+<area shape="rect" id="node6" href="$_l_c_d_nokia5110_8c.html" title="LCDNokia5110.c" alt="" coords="339,155,457,181"/>
+<area shape="rect" id="node7" href="$_s_p_i_8h.html" title="This is a starter file to use the Nokia 5510 LCD. The LCD is connected as follows: reset&#45;PDT0 CE&#45;GND ..." alt="" coords="305,80,360,107"/>
+<area shape="rect" id="node3" href="$_global_functions_8c.html" title="GlobalFunctions.c" alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node8" href="$_s_p_i_8c.html" title="SPI.c" alt="" coords="260,155,315,181"/>
+</map>

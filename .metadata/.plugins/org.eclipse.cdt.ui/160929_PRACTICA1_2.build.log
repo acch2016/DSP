@@ -1,0 +1,35 @@
+20:03:02 **** Incremental Build of configuration Debug for project 160929_PRACTICA1_2 ****
+make all 
+Building file: ../Sources/._DAC.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/._DAC.d" -MT"Sources/._DAC.o" -c -o "Sources/._DAC.o" "../Sources/._DAC.c"
+../Sources/._DAC.c:1:1: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:2: error: stray '\5' in program
+../Sources/._DAC.c:1:2: error: stray '\26' in program
+../Sources/._DAC.c:1:2: error: stray '\7' in program
+../Sources/._DAC.c:1:5: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:2: error: stray '\2' in program
+../Sources/._DAC.c:1:7: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:9: error: unknown type name 'Mac'
+../Sources/._DAC.c:1:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'X'
+../Sources/._DAC.c:1:17: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:16: error: stray '\2' in program
+../Sources/._DAC.c:1:27: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:35: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:16: error: stray '\16' in program
+../Sources/._DAC.c:1:16: error: stray '\260' in program
+../Sources/._DAC.c:1:39: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:16: error: stray '\2' in program
+../Sources/._DAC.c:1:43: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:16: error: stray '\16' in program
+../Sources/._DAC.c:1:16: error: stray '\342' in program
+../Sources/._DAC.c:1:47: warning: null character(s) ignored [enabled by default]
+../Sources/._DAC.c:1:16: error: stray '\1' in program
+../Sources/._DAC.c:1:16: error: stray '\36' in program
+
+cc1.exe: out of memory allocating 1677721600 bytes
+Sources/subdir.mk:63: recipe for target 'Sources/._DAC.o' failed
+make: *** [Sources/._DAC.o] Error 1
+
+20:03:03 Build Finished (took 1s.294ms)
+

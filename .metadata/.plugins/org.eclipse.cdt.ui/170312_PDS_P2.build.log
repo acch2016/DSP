@@ -1,0 +1,11 @@
+17:52:41 **** Incremental Build of configuration Debug for project 170312_PDS_P2 ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "170312_PDS_P2.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18736	    120	   2448	  21304	   5338	170312_PDS_P2.elf
+Finished building: 170312_PDS_P2.siz
+ 
+
+17:52:41 Build Finished (took 530ms)
+

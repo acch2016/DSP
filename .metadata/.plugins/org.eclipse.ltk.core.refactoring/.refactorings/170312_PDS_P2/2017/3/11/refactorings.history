@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;170312_PDS_P2/source/MK64F12.h&apos; to &apos;MK64F12_1.h&apos;" description="Rename resource &apos;MK64F12.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/MK64F12.h" name="MK64F12_1.h" stamp="1489426381187" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;170312_PDS_P2/source/MK64F12.h&apos; to &apos;MK64F12_1.h&apos;" description="Rename resource &apos;MK64F12.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/MK64F12.h" name="MK64F12_1.h" stamp="1489427784241" updateReferences="true"/>
+</session>

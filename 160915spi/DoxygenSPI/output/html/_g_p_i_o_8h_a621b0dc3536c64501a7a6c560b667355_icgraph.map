@@ -1,0 +1,5 @@
+<map id="GPIO_clockGating" name="GPIO_clockGating">
+<area shape="rect" id="node2" href="$_l_c_d_nokia5110_8h.html#a428271978e3456946f4abdd957760dcd" title="LCDNokia_init" alt="" coords="184,5,288,32"/>
+<area shape="rect" id="node4" href="$_s_p_i_8h.html#a31152f14e43ecf7368324eb0a0542dd5" title="SPI_init" alt="" coords="203,56,269,83"/>
+<area shape="rect" id="node3" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="336,31,387,57"/>
+</map>

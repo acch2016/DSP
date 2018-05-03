@@ -1,0 +1,5 @@
+<map id="square_1" name="square_1">
+<area shape="rect" id="node2" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="133,5,233,32"/>
+<area shape="rect" id="node3" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="128,56,239,83"/>
+<area shape="rect" id="node4" href="$_d_a_c_8c.html#a9322bd1541da67204b151c1293b61ea3" title="Función que carga los datos de un arreglo con los valores de una señal cuadrada al DAC de la K64..." alt="" coords="153,107,214,133"/>
+</map>

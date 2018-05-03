@@ -1,0 +1,6 @@
+<map id="MOTOR.c" name="MOTOR.c">
+<area shape="rect" id="node2" href="$_data_type_definitions_8h.html" title="DataTypeDefinitions.h" alt="" coords="40,155,188,181"/>
+<area shape="rect" id="node4" href="$_m_o_t_o_r_8h.html" title="MOTOR.h" alt="" coords="223,80,303,107"/>
+<area shape="rect" id="node5" href="$_p_i_t_8h.html" title="PIT.h" alt="" coords="147,80,199,107"/>
+<area shape="rect" id="node6" href="$_g_p_i_o_8h.html" title="Es es el archivo header del driver para el GPIO de la Kinetis k64 Este contiene todas las funciones d..." alt="" coords="5,80,71,107"/>
+</map>

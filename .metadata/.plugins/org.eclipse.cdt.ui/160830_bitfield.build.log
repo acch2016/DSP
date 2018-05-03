@@ -1,0 +1,14 @@
+19:48:08 **** Build of configuration Debug for project 160830_bitfield ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:5:62: fatal error: derivative.h: No such file or directory
+ #include "derivative.h" /* include peripheral declarations */
+                                                              ^
+compilation terminated.
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+
+19:48:11 Build Finished (took 3s.27ms)
+

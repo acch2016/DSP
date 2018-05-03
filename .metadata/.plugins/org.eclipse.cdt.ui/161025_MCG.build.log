@@ -1,0 +1,11 @@
+19:22:58 **** Incremental Build of configuration Debug for project 161025_MCG ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "161025_MCG.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8660	    384	   2264	  11308	   2c2c	161025_MCG.elf
+Finished building: 161025_MCG.siz
+ 
+
+19:22:58 Build Finished (took 266ms)
+

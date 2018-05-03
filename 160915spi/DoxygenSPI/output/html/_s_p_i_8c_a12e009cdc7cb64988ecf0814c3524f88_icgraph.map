@@ -1,0 +1,10 @@
+<map id="SPI_stopTranference" name="SPI_stopTranference">
+<area shape="rect" id="node2" href="$_l_c_d_nokia5110_8h.html#aba35bb142f5d3985c6225014e7c932b9" title="LCDNokia_writeByte" alt="" coords="196,107,337,133"/>
+<area shape="rect" id="node3" href="$_l_c_d_nokia5110_8h.html#a428271978e3456946f4abdd957760dcd" title="LCDNokia_init" alt="" coords="599,5,703,32"/>
+<area shape="rect" id="node5" href="$_l_c_d_nokia5110_8h.html#aa3b21a7a2ec419288e7929e734bc3117" title="LCDNokia_bitmap" alt="" coords="393,56,520,83"/>
+<area shape="rect" id="node6" href="$_l_c_d_nokia5110_8h.html#a94489371bcf12c571afffea2cd8f5a93" title="LCDNokia_sendChar" alt="" coords="385,107,528,133"/>
+<area shape="rect" id="node8" href="$_l_c_d_nokia5110_8h.html#adc1fba60e5f678b64c83928f2acfdd92" title="LCDNokia_clear" alt="" coords="593,208,708,235"/>
+<area shape="rect" id="node9" href="$_l_c_d_nokia5110_8h.html#a4ca11709ea8f3d65c2b0b84486571564" title="LCDNokia_gotoXY" alt="" coords="393,208,521,235"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="773,132,824,159"/>
+<area shape="rect" id="node7" href="$_l_c_d_nokia5110_8h.html#a8b3253b69d143795c1dde10f541beced" title="LCDNokia_sendString" alt="" coords="576,157,725,184"/>
+</map>

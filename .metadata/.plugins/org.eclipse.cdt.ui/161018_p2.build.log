@@ -1,0 +1,225 @@
+20:23:06 **** Build of configuration Debug for project 161018_p2 ****
+make all 
+Building file: ../Sources/FlexTimer.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/FlexTimer.d" -MT"Sources/FlexTimer.o" -c -o "Sources/FlexTimer.o" "../Sources/FlexTimer.c"
+../Sources/FlexTimer.c:19:1: error: unknown type name 'uint32'
+ volatile uint32* FTMx_SC[3]={&FTM0_SC, &FTM1_SC, &FTM2_SC};
+ ^
+../Sources/FlexTimer.c:19:31: error: 'FTM0_SC' undeclared here (not in a function)
+ volatile uint32* FTMx_SC[3]={&FTM0_SC, &FTM1_SC, &FTM2_SC};
+                               ^
+../Sources/FlexTimer.c:19:41: error: 'FTM1_SC' undeclared here (not in a function)
+ volatile uint32* FTMx_SC[3]={&FTM0_SC, &FTM1_SC, &FTM2_SC};
+                                         ^
+../Sources/FlexTimer.c:19:51: error: 'FTM2_SC' undeclared here (not in a function)
+ volatile uint32* FTMx_SC[3]={&FTM0_SC, &FTM1_SC, &FTM2_SC};
+                                                   ^
+../Sources/FlexTimer.c:20:1: error: unknown type name 'uint32'
+ volatile uint32* FTMx_MODE[3]={&FTM0_MODE, &FTM1_MODE, &FTM2_MODE};
+ ^
+../Sources/FlexTimer.c:20:33: error: 'FTM0_MODE' undeclared here (not in a function)
+ volatile uint32* FTMx_MODE[3]={&FTM0_MODE, &FTM1_MODE, &FTM2_MODE};
+                                 ^
+../Sources/FlexTimer.c:20:45: error: 'FTM1_MODE' undeclared here (not in a function)
+ volatile uint32* FTMx_MODE[3]={&FTM0_MODE, &FTM1_MODE, &FTM2_MODE};
+                                             ^
+../Sources/FlexTimer.c:20:57: error: 'FTM2_MODE' undeclared here (not in a function)
+ volatile uint32* FTMx_MODE[3]={&FTM0_MODE, &FTM1_MODE, &FTM2_MODE};
+                                                         ^
+../Sources/FlexTimer.c:21:1: error: unknown type name 'uint32'
+ volatile uint32* FTMx_MOD[3]={&FTM0_MOD, &FTM1_MOD, &FTM2_MOD};
+ ^
+../Sources/FlexTimer.c:21:32: error: 'FTM0_MOD' undeclared here (not in a function)
+ volatile uint32* FTMx_MOD[3]={&FTM0_MOD, &FTM1_MOD, &FTM2_MOD};
+                                ^
+../Sources/FlexTimer.c:21:43: error: 'FTM1_MOD' undeclared here (not in a function)
+ volatile uint32* FTMx_MOD[3]={&FTM0_MOD, &FTM1_MOD, &FTM2_MOD};
+                                           ^
+../Sources/FlexTimer.c:21:54: error: 'FTM2_MOD' undeclared here (not in a function)
+ volatile uint32* FTMx_MOD[3]={&FTM0_MOD, &FTM1_MOD, &FTM2_MOD};
+                                                      ^
+../Sources/FlexTimer.c:22:1: error: unknown type name 'uint32'
+ volatile uint32* FTMx_C0SC[3]={&FTM0_C0SC, &FTM1_C0SC, &FTM2_C0SC};
+ ^
+../Sources/FlexTimer.c:22:33: error: 'FTM0_C0SC' undeclared here (not in a function)
+ volatile uint32* FTMx_C0SC[3]={&FTM0_C0SC, &FTM1_C0SC, &FTM2_C0SC};
+                                 ^
+../Sources/FlexTimer.c:22:45: error: 'FTM1_C0SC' undeclared here (not in a function)
+ volatile uint32* FTMx_C0SC[3]={&FTM0_C0SC, &FTM1_C0SC, &FTM2_C0SC};
+                                             ^
+../Sources/FlexTimer.c:22:57: error: 'FTM2_C0SC' undeclared here (not in a function)
+ volatile uint32* FTMx_C0SC[3]={&FTM0_C0SC, &FTM1_C0SC, &FTM2_C0SC};
+                                                         ^
+../Sources/FlexTimer.c:23:1: error: unknown type name 'uint32'
+ volatile uint32* FTMx_CONF[3]={&FTM0_CONF, &FTM1_CONF, &FTM2_CONF};
+ ^
+../Sources/FlexTimer.c:23:33: error: 'FTM0_CONF' undeclared here (not in a function)
+ volatile uint32* FTMx_CONF[3]={&FTM0_CONF, &FTM1_CONF, &FTM2_CONF};
+                                 ^
+../Sources/FlexTimer.c:23:45: error: 'FTM1_CONF' undeclared here (not in a function)
+ volatile uint32* FTMx_CONF[3]={&FTM0_CONF, &FTM1_CONF, &FTM2_CONF};
+                                             ^
+../Sources/FlexTimer.c:23:57: error: 'FTM2_CONF' undeclared here (not in a function)
+ volatile uint32* FTMx_CONF[3]={&FTM0_CONF, &FTM1_CONF, &FTM2_CONF};
+                                                         ^
+../Sources/FlexTimer.c:24:1: error: unknown type name 'uint32'
+ volatile uint32* FTMx_COMBINE[3] = {&FTM0_COMBINE, &FTM1_COMBINE, &FTM2_COMBINE};
+ ^
+../Sources/FlexTimer.c:24:38: error: 'FTM0_COMBINE' undeclared here (not in a function)
+ volatile uint32* FTMx_COMBINE[3] = {&FTM0_COMBINE, &FTM1_COMBINE, &FTM2_COMBINE};
+                                      ^
+../Sources/FlexTimer.c:24:53: error: 'FTM1_COMBINE' undeclared here (not in a function)
+ volatile uint32* FTMx_COMBINE[3] = {&FTM0_COMBINE, &FTM1_COMBINE, &FTM2_COMBINE};
+                                                     ^
+../Sources/FlexTimer.c:24:68: error: 'FTM2_COMBINE' undeclared here (not in a function)
+ volatile uint32* FTMx_COMBINE[3] = {&FTM0_COMBINE, &FTM1_COMBINE, &FTM2_COMBINE};
+                                                                    ^
+../Sources/FlexTimer.c:25:1: error: unknown type name 'sint16'
+ volatile sint16* FTMx_C0V[3] = {&FTM0_C0V, &FTM1_C0V, &FTM2_C0V};
+ ^
+../Sources/FlexTimer.c:25:34: error: 'FTM0_C0V' undeclared here (not in a function)
+ volatile sint16* FTMx_C0V[3] = {&FTM0_C0V, &FTM1_C0V, &FTM2_C0V};
+                                  ^
+../Sources/FlexTimer.c:25:45: error: 'FTM1_C0V' undeclared here (not in a function)
+ volatile sint16* FTMx_C0V[3] = {&FTM0_C0V, &FTM1_C0V, &FTM2_C0V};
+                                             ^
+../Sources/FlexTimer.c:25:56: error: 'FTM2_C0V' undeclared here (not in a function)
+ volatile sint16* FTMx_C0V[3] = {&FTM0_C0V, &FTM1_C0V, &FTM2_C0V};
+                                                        ^
+../Sources/FlexTimer.c:31:1: error: unknown type name 'uint8'
+ volatile uint8 flag = 0;
+ ^
+../Sources/FlexTimer.c: In function 'FTM0_IRQHandler':
+../Sources/FlexTimer.c:50:16: error: 'FLEX_TIMER_CHF' undeclared (first use in this function)
+  FTM0_C0SC &= ~FLEX_TIMER_CHF;
+                ^
+../Sources/FlexTimer.c:50:16: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/FlexTimer.c:52:6: error: 'PRIMER_VALOR' undeclared (first use in this function)
+  if (PRIMER_VALOR == flag){
+      ^
+../Sources/FlexTimer.c:55:13: error: 'SEGUNDO_VALOR' undeclared (first use in this function)
+  } else if (SEGUNDO_VALOR == flag) {
+             ^
+../Sources/FlexTimer.c: In function 'FTM1_IRQHandler':
+../Sources/FlexTimer.c:71:14: error: 'FLEX_TIMER_TOF' undeclared (first use in this function)
+  FTM1_SC &= ~FLEX_TIMER_TOF;
+              ^
+../Sources/FlexTimer.c:72:2: warning: implicit declaration of function 'Read_Data' [-Wimplicit-function-declaration]
+  tempValue = Read_Data();
+  ^
+../Sources/FlexTimer.c: At top level:
+../Sources/FlexTimer.c:76:22: error: unknown type name 'FTMType'
+ void FTM_ClockGating(FTMType FTM){
+                      ^
+../Sources/FlexTimer.c:90:23: error: unknown type name 'FTMType'
+ void FTM_Stat_Control(FTMType FTM, uint32 mask, FTMState state) {
+                       ^
+../Sources/FlexTimer.c:90:36: error: unknown type name 'uint32'
+ void FTM_Stat_Control(FTMType FTM, uint32 mask, FTMState state) {
+                                    ^
+../Sources/FlexTimer.c:90:49: error: unknown type name 'FTMState'
+ void FTM_Stat_Control(FTMType FTM, uint32 mask, FTMState state) {
+                                                 ^
+../Sources/FlexTimer.c:99:15: error: unknown type name 'FTMType'
+ void FTM_MODE(FTMType FTM, uint32 mask){
+               ^
+../Sources/FlexTimer.c:99:28: error: unknown type name 'uint32'
+ void FTM_MODE(FTMType FTM, uint32 mask){
+                            ^
+../Sources/FlexTimer.c:107:14: error: unknown type name 'FTMType'
+ void FTM_MOD(FTMType FTM, uint32 mask){
+              ^
+../Sources/FlexTimer.c:107:27: error: unknown type name 'uint32'
+ void FTM_MOD(FTMType FTM, uint32 mask){
+                           ^
+../Sources/FlexTimer.c:111:15: error: unknown type name 'FTMType'
+ void FTM_C0SC(FTMType FTM, uint32 mask, FTMState state){
+               ^
+../Sources/FlexTimer.c:111:28: error: unknown type name 'uint32'
+ void FTM_C0SC(FTMType FTM, uint32 mask, FTMState state){
+                            ^
+../Sources/FlexTimer.c:111:41: error: unknown type name 'FTMState'
+ void FTM_C0SC(FTMType FTM, uint32 mask, FTMState state){
+                                         ^
+../Sources/FlexTimer.c:119:15: error: unknown type name 'FTMType'
+ void FTM_CONF(FTMType FTM, uint32 mask){
+               ^
+../Sources/FlexTimer.c:119:28: error: unknown type name 'uint32'
+ void FTM_CONF(FTMType FTM, uint32 mask){
+                            ^
+../Sources/FlexTimer.c:123:18: error: unknown type name 'FTMType'
+ void FTM_COMBINE(FTMType FTM, uint32 mask){
+                  ^
+../Sources/FlexTimer.c:123:31: error: unknown type name 'uint32'
+ void FTM_COMBINE(FTMType FTM, uint32 mask){
+                               ^
+../Sources/FlexTimer.c:127:24: error: unknown type name 'FTMType'
+ void FTM_updateCHValue(FTMType FTM,uint16 channelValue)
+                        ^
+../Sources/FlexTimer.c:127:36: error: unknown type name 'uint16'
+ void FTM_updateCHValue(FTMType FTM,uint16 channelValue)
+                                    ^
+../Sources/FlexTimer.c:134:1: error: unknown type name 'FTM_ConfigType'
+ void FTM_Init(const FTM_ConfigType * FTM_Config)
+ ^
+../Sources/FlexTimer.c: In function 'FTM_Init':
+../Sources/FlexTimer.c:136:2: warning: implicit declaration of function 'FTM_ClockGating' [-Wimplicit-function-declaration]
+  FTM_ClockGating(FTM_Config->FTM_Channel);
+  ^
+../Sources/FlexTimer.c:136:28: error: request for member 'FTM_Channel' in something not a structure or union
+  FTM_ClockGating(FTM_Config->FTM_Channel);
+                            ^
+../Sources/FlexTimer.c:137:2: warning: implicit declaration of function 'FTM_Stat_Control' [-Wimplicit-function-declaration]
+  FTM_Stat_Control(FTM_Config->FTM_Channel, FTM_Config->FTM_SC_Mask, ENABLE);
+  ^
+../Sources/FlexTimer.c:137:29: error: request for member 'FTM_Channel' in something not a structure or union
+  FTM_Stat_Control(FTM_Config->FTM_Channel, FTM_Config->FTM_SC_Mask, ENABLE);
+                             ^
+../Sources/FlexTimer.c:137:54: error: request for member 'FTM_SC_Mask' in something not a structure or union
+  FTM_Stat_Control(FTM_Config->FTM_Channel, FTM_Config->FTM_SC_Mask, ENABLE);
+                                                      ^
+../Sources/FlexTimer.c:137:69: error: 'ENABLE' undeclared (first use in this function)
+  FTM_Stat_Control(FTM_Config->FTM_Channel, FTM_Config->FTM_SC_Mask, ENABLE);
+                                                                     ^
+../Sources/FlexTimer.c:138:2: warning: implicit declaration of function 'FTM_MODE' [-Wimplicit-function-declaration]
+  FTM_MODE(FTM_Config->FTM_Channel, FTM_Config->FTM_MODE_Mask);
+  ^
+../Sources/FlexTimer.c:138:21: error: request for member 'FTM_Channel' in something not a structure or union
+  FTM_MODE(FTM_Config->FTM_Channel, FTM_Config->FTM_MODE_Mask);
+                     ^
+../Sources/FlexTimer.c:138:46: error: request for member 'FTM_MODE_Mask' in something not a structure or union
+  FTM_MODE(FTM_Config->FTM_Channel, FTM_Config->FTM_MODE_Mask);
+                                              ^
+../Sources/FlexTimer.c:139:2: warning: implicit declaration of function 'FTM_MOD' [-Wimplicit-function-declaration]
+  FTM_MOD(FTM_Config->FTM_Channel, FTM_Config->FTM_MOD_Mask);
+  ^
+../Sources/FlexTimer.c:139:20: error: request for member 'FTM_Channel' in something not a structure or union
+  FTM_MOD(FTM_Config->FTM_Channel, FTM_Config->FTM_MOD_Mask);
+                    ^
+../Sources/FlexTimer.c:139:45: error: request for member 'FTM_MOD_Mask' in something not a structure or union
+  FTM_MOD(FTM_Config->FTM_Channel, FTM_Config->FTM_MOD_Mask);
+                                             ^
+../Sources/FlexTimer.c:140:2: warning: implicit declaration of function 'FTM_C0SC' [-Wimplicit-function-declaration]
+  FTM_C0SC(FTM_Config->FTM_Channel, FTM_Config->FTM_C0SC_Mask,ENABLE);
+  ^
+../Sources/FlexTimer.c:140:21: error: request for member 'FTM_Channel' in something not a structure or union
+  FTM_C0SC(FTM_Config->FTM_Channel, FTM_Config->FTM_C0SC_Mask,ENABLE);
+                     ^
+../Sources/FlexTimer.c:140:46: error: request for member 'FTM_C0SC_Mask' in something not a structure or union
+  FTM_C0SC(FTM_Config->FTM_Channel, FTM_Config->FTM_C0SC_Mask,ENABLE);
+                                              ^
+../Sources/FlexTimer.c:141:2: warning: implicit declaration of function 'FTM_CONF' [-Wimplicit-function-declaration]
+  FTM_CONF(FTM_Config->FTM_Channel, FTM_Config->FTM_CONF_Mask);
+  ^
+../Sources/FlexTimer.c:141:21: error: request for member 'FTM_Channel' in something not a structure or union
+  FTM_CONF(FTM_Config->FTM_Channel, FTM_Config->FTM_CONF_Mask);
+                     ^
+../Sources/FlexTimer.c:141:46: error: request for member 'FTM_CONF_Mask' in something not a structure or union
+  FTM_CONF(FTM_Config->FTM_Channel, FTM_Config->FTM_CONF_Mask);
+                                              ^
+Sources/subdir.mk:48: recipe for target 'Sources/FlexTimer.o' failed
+make: *** [Sources/FlexTimer.o] Error 1
+
+20:23:07 Build Finished (took 344ms)
+

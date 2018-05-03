@@ -1,0 +1,11 @@
+14:14:29 **** Incremental Build of configuration Debug for project z_PDSs_Practica2 ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "z_PDSs_Practica2.elf"
+   text	   data	    bss	    dec	    hex	filename
+  23452	    192	   2888	  26532	   67a4	z_PDSs_Practica2.elf
+Finished building: z_PDSs_Practica2.siz
+ 
+
+14:14:30 Build Finished (took 608ms)
+

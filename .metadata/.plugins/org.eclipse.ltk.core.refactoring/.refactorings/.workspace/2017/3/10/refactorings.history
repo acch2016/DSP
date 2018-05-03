@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;170312_DSP_practica2&apos; to &apos;170312_PDS_practica2&apos;" description="Rename resource &apos;170312_DSP_practica2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/170312_DSP_practica2" name="170312_PDS_practica2" stamp="1489360866766" updateReferences="true"/>
+</session>
